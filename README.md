@@ -1,7 +1,6 @@
 
 # Setup Docker Laravel 10 com PHP 8.1
 
-
 Crie o Arquivo .env
 ```sh
 cp .env.example .env
