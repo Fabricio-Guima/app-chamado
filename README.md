@@ -51,6 +51,25 @@ Gere a key do projeto Laravel
 ```sh
 php artisan key:generate
 ```
+Rode este comando para criar as tabelas
+```sh
+php artisan migrate
+```
+
+Rode este comando para popular as tabelas com permissões, cargos e usuários
+```sh
+php artisan db:seed
+```
+
+Login a serem usados:
+email: admin@gmail.com
+senha: password
+
+email: manager@gmail.com
+senha: password
+
+email: user@gmail.com
+senha: password
 
 
 Acesse o projeto
